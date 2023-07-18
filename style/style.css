@@ -79,6 +79,7 @@ body {
 
     padding-left: 8.5rem;
     width: 50%;
+    padding-bottom: .5rem;
 }
 
 .banner-header {
@@ -159,9 +160,10 @@ body {
         flex-direction: column-reverse;
         
         
+        
     }
     .banner-content{
-        padding: 20px;
+        padding-left: 40px;
         width: 80%;
         text-align: justify;
         margin: 0 auto;
@@ -179,5 +181,13 @@ body {
     .nav-container,
     .menu ul {
         flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        
+        
+    }
+    .banner-image-container img{
+        width: 100%;
     }
 }
