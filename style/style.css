@@ -240,14 +240,49 @@ body {
     font-weight: 700;
 
 }
-.games-description{
+
+.games-description {
     padding-left: 4rem;
-    
+
 }
-.play-games-content{
+
+.play-games-content {
     width: 100%;
     margin: 0 auto;
     padding-right: 4rem;
+}
+
+/* logo style here */
+.logo-container {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    row-gap: 1.5rem;
+    align-items: center;
+    column-gap: .5rem;
+    
+
+}
+
+.logo-description {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logo-description:hover{
+    border: .2rem solid #F948B2;
+    border-radius: 2.5rem;
+    background: white;
+    padding: .2rem .4rem;
+}
+.logo-title{
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 /* media query */
@@ -282,18 +317,32 @@ body {
         grid-template-columns: 1fr;
 
     }
-    .play-games-container{
-        flex-direction: column;
+
+    .play-games-container {
+        flex-direction: column-reverse;
         padding: .5rem;
         width: 80%;
     }
-    .play-games-content,.games-description{
+
+    .play-games-content,
+    .games-description {
         padding: .5rem;
         text-align: center;
     }
-   .play-games-image{
-    width: 70%;
-   }
+
+    .play-games-image {
+        width: 70%;
+    }
+    .logo-container{
+        width: 100%;
+        align-items: center;
+    } 
+    .logo-box{
+        width:110px
+    }
+    .logo{
+        width: 40px;
+    }
 
 
 
@@ -320,14 +369,21 @@ body {
     .games-container {
         grid-template-columns: repeat(2, 1fr);
     }
-    .play-games-container{
-        flex-direction: column;
+
+    .play-games-container {
+        flex-direction: column-reverse;
         width: 50%;
         text-align: center;
         padding: .5rem;
     }
-    .play-games-content,.games-description{
+
+    .play-games-content,
+    .games-description {
         padding: .5rem;
         text-align: center;
     }
+    .logo-container{
+        width: 100%;
+        align-items: center;
+    } 
 }
