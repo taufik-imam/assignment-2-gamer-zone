@@ -184,6 +184,7 @@ body {
 
 .box img {
     width: 100%;
+    
 }
 
 .another-description,
@@ -198,12 +199,13 @@ body {
     padding-top: 2.5rem;
 }
 
-.box img:hover {
+.box img:hover{
     border: .3rem solid #F948B2;
-    border-radius: 1rem;
+    border-radius: 1rem;    
 
 
 }
+
 
 /* play games style */
 .play-games-container {
@@ -389,9 +391,15 @@ small{
     }
     .footer-container{
         width: 100%;
+        margin: 0 auto;
     }
     .footer-container ul ,ol{
         flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .footer-container li{
+        padding: .5rem;
     }
 
 
@@ -436,4 +444,16 @@ small{
         width: 100%;
         align-items: center;
     } 
+    .footer-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-container ul ,ol{
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .footer-container li{
+        padding: 1.5rem;
+    }
 }
